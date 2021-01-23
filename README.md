@@ -1,4 +1,4 @@
 # dotfiles
 My openbox configs
 
-#test
+#ssh test
