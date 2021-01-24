@@ -1,11 +1,11 @@
 #!/bin/sh
 
-B='#00000000'  # blank
-C='#ffffff22'  # clear ish
-D='#ff00ffcc'  # default
+B='#ffe6ff'  # blank
+C='#ffe6ff'  # clear ish
+D='#ff4dff'  # default
 T='#ee00eeee'  # text
-W='#880000bb'  # wrong
-V='#bb00bbbb'  # verifying
+W='#e60000'  # wrong
+V='#ff4dff'  # verifying
 
 /usr/bin/i3lock \
 --insidevercolor=$C   \
@@ -28,7 +28,7 @@ V='#bb00bbbb'  # verifying
 --bshlcolor=$W        \
 \
 --screen 1            \
---blur 8              \
+--image ~/.config/i3lock/lockscreen.png              \
 --clock               \
 --indicator           \
 --timestr="%H:%M:%S"  \
