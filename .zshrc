@@ -15,12 +15,7 @@ source $ZSH/oh-my-zsh.sh
 # Custom Aliases
 alias zshcfg="vim ~/.zshrc"
 alias j="jump"
-alias i3cfg="vim ~/.config/i3/config"
 alias jrnl="journalctl -p 3 -xb"
 
 # auto launch programs
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
-fi
-
 neofetch

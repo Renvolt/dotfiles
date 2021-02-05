@@ -8,6 +8,9 @@
             <item label="Python"> <action name="Execute">
                 <execute>alacritty -e python</execute>
             </action> </item>
+            <item label="Python (v2.7)"> <action name="Execute">
+                <execute>alacritty -e python2.7</execute>
+            </action> </item>
         </menu>
         <menu id="2" label="Editors">
             <item label="Leafpad"> <action name="Execute">
@@ -28,6 +31,17 @@
                     <execute>pacman</execute>
                 </action> </item>
             </menu>
+            <item label="Minecraft Launcher"> <action name="Execute">
+                <execute>minecraft-launcher</execute>
+            </action> </item>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="GNU Image Manipulation Program"> <action name="Execute">
+                <execute>gimp-2.10</execute>
+            </action> </item>
+            <item label="The GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
         </menu>
         <menu id="7" label="Multimedia">
             <item label="PulseAudio Volume Control"> <action name="Execute">
@@ -59,6 +73,9 @@
             <item label="FireFox"> <action name="Execute">
                 <execute>firefox</execute>
             </action> </item>
+            <item label="LibreWolf"> <action name="Execute">
+                <execute>/usr/lib/librewolf/librewolf</execute>
+            </action> </item>
             <item label="Private Internet Access"> <action name="Execute">
                 <execute>/opt/piavpn/bin/pia-client</execute>
             </action> </item>
@@ -73,11 +90,6 @@
             </action> </item>
             <item label="Wireshark"> <action name="Execute">
                 <execute>wireshark</execute>
-            </action> </item>
-        </menu>
-        <menu id="39" label="Other">
-            <item label="NVIDIA X Server Settings"> <action name="Execute">
-                <execute>nvidia-settings</execute>
             </action> </item>
         </menu>
         <menu id="19" label="Shells">
@@ -116,6 +128,9 @@
                 <item label="nitrogen"> <action name="Execute">
                     <execute>nitrogen</execute>
                 </action> </item>
+                <item label="NVIDIA X Server Settings"> <action name="Execute">
+                    <execute>nvidia-settings</execute>
+                </action> </item>
                 <item label="Openbox Configuration Manager"> <action name="Execute">
                     <execute>obconf</execute>
                 </action> </item>
@@ -128,6 +143,9 @@
             </menu>
             <item label="Avahi Zeroconf Browser"> <action name="Execute">
                 <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="G-Top"> <action name="Execute">
+                <execute>gtop</execute>
             </action> </item>
             <item label="Htop"> <action name="Execute">
                 <execute>alacritty -e htop</execute>
@@ -163,6 +181,9 @@
             </action> </item>
             <item label="picom"> <action name="Execute">
                 <execute>picom</execute>
+            </action> </item>
+            <item label="Screenshot"> <action name="Execute">
+                <execute>gnome-screenshot --interactive</execute>
             </action> </item>
             <item label="Xev"> <action name="Execute">
                 <execute>alacritty -e xev</execute>

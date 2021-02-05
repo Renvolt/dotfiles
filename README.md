@@ -1,4 +1,5 @@
-# dotfiles
 My openbox configs
 
-#ssh test!
+Environment variables
+EDITOR=vim
+QT_STYLE_OVERRIDE=kvantum
