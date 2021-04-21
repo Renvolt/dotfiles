@@ -339,10 +339,28 @@
         <direction>east</direction>
       </action>
     </keybind>
+    <keybind key="W-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>50%</height>
+      </action>
+      <action name="MoveToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
     <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>50%</height>
+      </action>
+      <action name="MoveToEdge">
+        <direction>south</direction>
+      </action>
+    </keybind>
+    <keybind key="C-W-Down">
       <action name="Iconify"/>
     </keybind>
-    <keybind key="W-Up">
+    <keybind key="C-W-Up">
       <action name="Maximize"/>
     </keybind>
     <!-- Keybindings for running applications -->
