@@ -340,7 +340,7 @@
       </action>
     </keybind>
     <keybind key="W-Down">
-      <action name="Unmaximize"/>
+      <action name="Iconify"/>
     </keybind>
     <keybind key="W-Up">
       <action name="Maximize"/>
@@ -398,6 +398,17 @@
           <name>Lock</name>
         </startupnotify>
         <command>sh ~/.config/i3lock/lock.sh</command>
+      </action>
+    </keybind>
+    <!-- Screenshot Utility -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>scrot ~/Screenshots/'%m-%d-%Y.png'</command>
+      </action>
+    </keybind>
+    <keybind key="W-Print">
+      <action name="Execute">
+        <command>scrot -sf ~/Screenshots/'%m-%d-%Y.png'</command>
       </action>
     </keybind>
   </keyboard>
@@ -763,8 +774,13 @@
   <applications>
     <application class="firefox">
       <decor>no</decor>
+      <desktop>1</desktop>
     </application>
     <application class="discord">
+      <decor>no</decor>
+      <desktop>2</desktop>
+    </application>
+    <application class="Thunar">
       <decor>no</decor>
     </application>
     <!--
