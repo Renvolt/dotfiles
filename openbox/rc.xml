@@ -793,6 +793,7 @@
     <application class="firefox">
       <decor>no</decor>
       <desktop>1</desktop>
+      <maximized>yes</maximized>
     </application>
     <application class="discord">
       <decor>no</decor>
@@ -800,6 +801,9 @@
     </application>
     <application class="Thunar">
       <decor>no</decor>
+    </application>
+    <application class="Steam">
+      <desktop>3</desktop>
     </application>
     <!--
   # this is an example with comments through out. use these to make your
