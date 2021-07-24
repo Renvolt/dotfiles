@@ -76,6 +76,14 @@
       </startupnotify>
     </action>
   </item>
+  <item label="Lutris">
+    <action name="Execute">
+      <command>lutris</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
   <item label="Minecraft">
     <action name="Execute">
       <command>minecraft-launcher</command>
