@@ -1,1 +1,1 @@
-My openbox configs!!
+Crapply written dot files
