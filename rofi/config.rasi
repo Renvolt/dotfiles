@@ -1,12 +1,9 @@
 configuration {
 	modi: "window,drun,run";
-	width: 30;
-	lines: 8;
 /*	columns: 1;*/
 	font: "roboto 12";
 /*	bw: 1;*/
 /*	location: 0;*/
-	padding: 10;
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
@@ -39,7 +36,6 @@ configuration {
 /*	tokenize: true;*/
 /*	m: "-5";*/
 /*	line-margin: 2;*/
-	line-padding: 10;
 /*	filter: ;*/
 /*	separator-style: "dash";*/
 /*	hide-scrollbar: false;*/

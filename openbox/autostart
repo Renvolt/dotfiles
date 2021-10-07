@@ -22,8 +22,3 @@ tint2 &
 
 nitrogen --restore &
 
-numlockx on &
-
-firefox &
-
-lxsession $

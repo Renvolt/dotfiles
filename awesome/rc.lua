@@ -46,7 +46,7 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-beautiful.font = "Roboto 14"
+beautiful.font = "Roboto 10"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -571,7 +571,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Gaps
-beautiful.useless_gap = 3
+beautiful.useless_gap = 2
 
 -- Autostart
 awful.spawn.with_shell("picom")
