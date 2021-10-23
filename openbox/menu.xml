@@ -170,6 +170,11 @@
   <menu id="apps-games"/>
   <menu id="apps-media"/>
   <separator label="System" />
+  <item label="Onboard">
+    <action name="Execute">
+      <command>onboard</command>
+    </action>
+  </item>
   <menu id="system-menu"/>
   <separator />
   <menu id="exit-menu">
