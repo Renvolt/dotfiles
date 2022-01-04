@@ -426,7 +426,7 @@
     </keybind>
     <keybind key="W-Print">
       <action name="Execute">
-        <command>scrot -sf ~/Screenshots/'%m-%d-%Y.png'</command>
+        <command>scrot -s ~/Screenshots/'%m-%d-%Y.png'</command>
       </action>
     </keybind>
   </keyboard>
