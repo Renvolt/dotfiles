@@ -16,5 +16,8 @@ source $ZSH/oh-my-zsh.sh
 alias zshcfg="vim ~/.zshrc"
 alias j="jump"
 alias jrnl="journalctl -p 3 -xb"
+alias bscfg="vim ~/.config/bspwm/bspwmrc"
+alias sxcfg="vim ~/.config/sxhkd/sxhkdrc"
+
 # auto launch programs
 neofetch
