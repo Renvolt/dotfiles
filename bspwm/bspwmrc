@@ -1,7 +1,9 @@
 #! /bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
+
 $HOME/.config/polybar/launch.sh
+$HOME/.config/bspwm/autostart.sh
 
 bspc monitor -d I II III IV V
 
@@ -14,5 +16,6 @@ bspc config gapless_monocle      true
 
 bspc rule -a Gimp-2.10 desktop='^5' state=floating follow=on
 bspc rule -a Pavucontrol state=floating
-bspc rule -a discord desktop='3'
-bspc rule -a Steam desktop='4'
+bspc rule -a discord desktop='^3' follow=off
+bspc rule -a Steam desktop='^4'
+bspc rule -a Lutris desktop='^4'
